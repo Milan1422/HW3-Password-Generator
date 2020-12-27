@@ -6,8 +6,15 @@ var passwordNumber = confirm("Would you like it to have numbers?");
 var passwordSecial = confirm("Would you like it to have special characters?");
 
 // Alerts showing user input
-alert("OK your new password will be " + passwordLength + " characters long!");
+// How many characters does the user want the password to include
+if (passwordLength < 8 || passwordLength > 128){
+  alert("Your new password must be between 8 and 128 characters long.")
+}
+else{
+  alert("OK your new password will be " + passwordLength + " characters long!");
+}
 
+// SHows whether the user wants capital letters
 if (passwordCapital) {
   alert("OK your new password will have capital letters!");
 }
@@ -15,6 +22,7 @@ else {
   alert("Your new password will NOT have capital letters!");
 }
 
+// Shows whether the user wants numbers in the password
 if (passwordNumber){
   alert("OK your new password will have numbers!");
 }
@@ -22,6 +30,7 @@ else {
   alert("Your new password will NOT have numbers!");
 }
 
+//  Shows whether the user wants special characters on their password
 if (passwordSecial){
   alert("OK your new password will have special characters!");
 }
