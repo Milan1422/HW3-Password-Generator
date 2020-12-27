@@ -1,3 +1,6 @@
+// Prompt welcome screen
+alert("Welcome User Let's Make A New Password For You!");
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
