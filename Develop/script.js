@@ -1,4 +1,4 @@
-// Prompt welcome screen
+// VAriable setting
 var noAddedSecurity = "abcdefghijklmnopqrstuvwxyz";
 var addCapital = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var addCapitalNumbers = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -6,7 +6,7 @@ var addCapitalNumbersSpecial = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUV
 var addNumbers = "abcdefghijklmnopqrstuvwxyz01232456789";
 var addNumbersSpecial = "abcdefghijklmnopqrstuvwxyz01232456789!@#$%^&*()?";
 var addSpecial = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()?";
-var addCapitalSpecial = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+var addCapitalSpecial = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?";
 var newPassword = "";
 
 // Asking for user input
@@ -59,15 +59,6 @@ else {
   newPassword = noAddedSecurity;
 }
 
-//  Shows whether the user wants special characters on their password
-// if (passwordSecial){
-//   alert("OK your new password will have special characters!");
-//   newPassword = passwordCapital + "!@#$%^&*()?";
-// }
-// else {
-//   alert("Your new password will NOT have special characters!");
-//   newPassword = passwordCapital;
-// }
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
