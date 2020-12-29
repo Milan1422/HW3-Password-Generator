@@ -28,6 +28,6 @@ I feel that my understanding of functions and loops needs to grow. Even though I
 ![Validation after prompts](Assets/validationpage.png)
 ![Generaded new password](Assets/passwordresult.png)
 
-[GitHub:] 
-[GItHubPages:]
+[GitHub:] https://github.com/Milan1422/HW3-Password-Generator
+[GItHubPages:] https://milan1422.github.io/HW3-Password-Generator/.
 
